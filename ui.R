@@ -11,7 +11,9 @@ shinyUI(fluidPage(
       h5("One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class.", align = "justify"),
       h5("This Shiny application analyses the types of people who are likely to survive through the use of machine learning techniques to predict which passengers survived the tragedy.", align = "justify"),
       br(),
-      h5(strong("Click on the tabs above to find out more!"), align = "center")
+      h5(strong("Click on the tabs above to find out more!"), align = "center"),
+      br(),
+      h6(strong(em("Note: ")), em("You may find the server.R and ui.R codes on my "), em(a("GitHub.", href = "https://github.com/outrigger/DevDataProducts", target="_blank")), align = "center")
     ),
               
     "Descriptive Analytics",
